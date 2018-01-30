@@ -1,0 +1,28 @@
+{
+  "name": "phalapi/translate",
+  "description": "PhalApi 2.x 扩展类库 - 翻译类库(现已经对接百度翻译)",
+  "keywords": [
+    "phalapi",
+    "translate",
+    "phalapi-translate"
+  ],
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.phalapi.net/",
+  "type": "library",
+  "authors": [
+    {
+      "name": "喵了个咪",
+      "email": "wenzhenxi@vip.qq.com",
+      "homepage": "http://w-blog.cn",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhalApi\\Translate\\": "src/"
+    }
+  }
+}
